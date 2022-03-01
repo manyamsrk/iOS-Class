@@ -17,21 +17,21 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var imageName: UILabel!
     
-    @IBOutlet weak var searchButton: UIButton!
+    @IBOutlet weak var searchButtonAction: UIButton!
     
     @IBOutlet weak var resetButton: UIButton!
     
-    @IBOutlet weak var prevButton: UIButton!
+    @IBOutlet weak var showPrevImagesBtn: UIButton!
     
-    @IBOutlet weak var nextButton: UIButton!
+    @IBOutlet weak var showNextImagesBtn: UIButton!
     
     var arr = [["actor1","actor2","actor3","actor4","actor5"],["book1","book2","book3","book4","book5"],["animal1","animal2","animal3","animal4","animal5",],["bg","404"]]
     
-    var actors = ["actor","actors","hero","tollywood","jrntr","prabhas","maheshbabu","pawankalyan","balakrishna","celebrity"]
+    var actors = ["actor","actors","hero","tollywood","jrntr","prabhas","maheshbabu","pawankalyan","balakrishna","celebrity","hero","film"]
     
-    var books = ["books","book","Hobbit","little prince","harry","harrypotter","tale of two city","red chamber"]
+    var books = ["books","book","Hobbit","little prince","harry","harrypotter","tale of two city","red chamber","read","stories","reading"]
     
-    var animals = ["animals","animal", "lion","elephant","rhino","buffalo","leopard"]
+    var animals = ["animals","animal", "lion","elephant","rhino","buffalo","leopard","dog","cat","rabbit"]
     
     var topic = 0
     var imag1:Int!
@@ -47,9 +47,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        prevButton.isHidden = true
-        nextButton.isHidden = true
-        searchButton.isEnabled = false
+        showPrevImagesBtn.isHidden = true
+        showNextImagesBtn.isHidden = true
+        searchButtonAction.isEnabled = false
         resetButton.isHidden = true
         resultImage.image = UIImage(named: arr[3][0])
         topicInfoText.text = nil
@@ -57,17 +57,17 @@ class ViewController: UIViewController {
     }
     
     @IBAction func searchTextField(_ sender: UITextField) {
-        searchButton.isEnabled = true
+        searchButtonAction.isEnabled = true
         if(sender.text == ""){
-            searchButton.isEnabled = false
+            searchButtonAction.isEnabled = false
             
         }
         else{
-//            prevButton.isHidden = false
-//            nextButton.isHidden = false
-            prevButton.isEnabled = false
-            nextButton.isEnabled = false
-            searchButton.isEnabled = true
+//            showPrevImagesBtn.isHidden = false
+//            showNextImagesBtn.isHidden = false
+            showPrevImagesBtn.isEnabled = false
+            showNextImagesBtn.isEnabled = false
+            searchButtonAction.isEnabled = true
             resetButton.isHidden = false
         }
 
@@ -82,7 +82,7 @@ class ViewController: UIViewController {
     
     
     
-    @IBAction func searchButtonAction(_ sender: UIButton) {
+    @IBAction func searchButtonActionAction(_ sender: UIButton) {
         imag1 = 0
         imag2 = 0
         imag3 = 0
@@ -92,30 +92,30 @@ class ViewController: UIViewController {
         text1 = 0
         text2 = 0
         text3 = 0
-        prevButton.isHidden = false
-        nextButton.isHidden = false
-        prevButton.isEnabled = false
-        nextButton.isEnabled = false
+        showPrevImagesBtn.isHidden = false
+        showNextImagesBtn.isHidden = false
+        showPrevImagesBtn.isEnabled = false
+        showNextImagesBtn.isEnabled = false
         resetButton.isEnabled = true
         if(actors.contains(searchTextField.text!)){
-            nextButton.isEnabled = true
-            prevButton.isEnabled = false
+            showNextImagesBtn.isEnabled = true
+            showPrevImagesBtn.isEnabled = false
             resultImage.image = UIImage(named: arr[0][imag1])
             imageName.text = actor[0][name1]
             topic = 1
             topicInfoText.text = actor[1][text1]
         }
         else if(books.contains(searchTextField.text!)){
-            nextButton.isEnabled = true
-            prevButton.isEnabled = false
+            showNextImagesBtn.isEnabled = true
+            showPrevImagesBtn.isEnabled = false
             resultImage.image = UIImage(named: arr[1][imag2])
             imageName.text = book[0][name2]
             topic = 2
             topicInfoText.text = book[1][text2]
         }
         else if(animals.contains(searchTextField.text!)){
-            nextButton.isEnabled = true
-            prevButton.isEnabled = false
+            showNextImagesBtn.isEnabled = true
+            showPrevImagesBtn.isEnabled = false
             resultImage.image = UIImage(named: arr[2][imag3])
             imageName.text = book[0][name3]
             topic = 3
@@ -126,8 +126,8 @@ class ViewController: UIViewController {
 //            resultImage.image = nil
             topicInfoText.text = nil
             imageName.text = nil
-            prevButton.isHidden = true
-            nextButton.isHidden = true
+            showPrevImagesBtn.isHidden = true
+            showNextImagesBtn.isHidden = true
             resetButton.isEnabled = true
         }
         
@@ -179,8 +179,8 @@ class ViewController: UIViewController {
     
     
     @IBAction func resetButton(_ sender: Any) {
-        prevButton.isHidden = true
-        nextButton.isHidden = true
+        showPrevImagesBtn.isHidden = true
+        showNextImagesBtn.isHidden = true
 //        resultImage.image = UIImage(named: arr[3][0])
         topicInfoText.text = nil
         imageName.text = nil
@@ -203,22 +203,22 @@ class ViewController: UIViewController {
     func dataUpdate(imgNo: Int){
         if(topic == 1){
             if imag1 == arr[0].count-1 {
-                nextButton.isEnabled = false
-                prevButton.isEnabled = true
+                showNextImagesBtn.isEnabled = false
+                showPrevImagesBtn.isEnabled = true
                 resultImage.image = UIImage(named: arr[0][imag1])
                 imageName.text = actor[0][name1]
                 topicInfoText.text = actor[1][text1]
             }
             else if(imag1 == 0){
-                prevButton.isEnabled = false
-                nextButton.isEnabled = true
+                showPrevImagesBtn.isEnabled = false
+                showNextImagesBtn.isEnabled = true
                 resultImage.image = UIImage(named: arr[0][imag1])
                 imageName.text = actor[0][name1]
                 topicInfoText.text = actor[1][text1]
             }
             else{
-                nextButton.isEnabled = true
-                prevButton.isEnabled = true
+                showNextImagesBtn.isEnabled = true
+                showPrevImagesBtn.isEnabled = true
                 resultImage.image = UIImage(named: arr[0][imag1])
                 imageName.text = actor[0][name1]
                 topicInfoText.text = actor[1][text1]
@@ -226,22 +226,22 @@ class ViewController: UIViewController {
         }
         if(topic == 2){
             if imag2 == arr[1].count-1 {
-                nextButton.isEnabled = false
-                prevButton.isEnabled = true
+                showNextImagesBtn.isEnabled = false
+                showPrevImagesBtn.isEnabled = true
                 resultImage.image = UIImage(named: arr[1][imag2])
                 imageName.text = book[0][name2]
                 topicInfoText.text = book[1][text2]
             }
             else if(imag2 == 0){
-                prevButton.isEnabled = false
-                nextButton.isEnabled = true
+                showPrevImagesBtn.isEnabled = false
+                showNextImagesBtn.isEnabled = true
                 resultImage.image = UIImage(named: arr[1][imag2])
                 imageName.text = book[0][name2]
                 topicInfoText.text = book[1][text2]
             }
             else{
-                nextButton.isEnabled = true
-                prevButton.isEnabled = true
+                showNextImagesBtn.isEnabled = true
+                showPrevImagesBtn.isEnabled = true
                 resultImage.image = UIImage(named: arr[1][imag2])
                 imageName.text = book[0][name2]
                 topicInfoText.text = book[1][text2]
@@ -250,22 +250,22 @@ class ViewController: UIViewController {
         }
         if(topic == 3){
             if imag3 == arr[1].count-1 {
-                nextButton.isEnabled = false
-                prevButton.isEnabled = true
+                showNextImagesBtn.isEnabled = false
+                showPrevImagesBtn.isEnabled = true
                 resultImage.image = UIImage(named: arr[2][imag3])
                 imageName.text = animal[0][name3]
                 topicInfoText.text = animal[1][text3]
             }
             else if(imag3 == 0){
-                prevButton.isEnabled = false
-                nextButton.isEnabled = true
+                showPrevImagesBtn.isEnabled = false
+                showNextImagesBtn.isEnabled = true
                 resultImage.image = UIImage(named: arr[2][imag3])
                 imageName.text = animal[0][name3]
                 topicInfoText.text = animal[1][text3]
             }
             else{
-                nextButton.isEnabled = true
-                prevButton.isEnabled = true
+                showNextImagesBtn.isEnabled = true
+                showPrevImagesBtn.isEnabled = true
                 resultImage.image = UIImage(named: arr[2][imag3])
                 imageName.text = animal[0][name3]
                 topicInfoText.text = animal[1][text3]

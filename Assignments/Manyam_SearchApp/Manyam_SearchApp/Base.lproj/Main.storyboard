@@ -38,7 +38,7 @@
                                                     <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="searchButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sgY-4Q-l0X"/>
+                                                    <action selector="searchButtonActionAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="U0F-cc-zFr"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -67,7 +67,7 @@
                                                     <color key="baseBackgroundColor" systemColor="systemYellowColor"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="showPrevImagesBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0px-aD-JID"/>
+                                                    <action selector="showPrevImagesBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="E45-0c-OCM"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="je5-JS-dxI">
@@ -78,7 +78,7 @@
                                                     <color key="baseBackgroundColor" systemColor="systemYellowColor"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="showNextImagesBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WTD-00-XfZ"/>
+                                                    <action selector="showNextImagesBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TCi-Gk-RQk"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -120,12 +120,12 @@
                     </view>
                     <connections>
                         <outlet property="imageName" destination="pyS-Hv-s0M" id="U7H-yx-hV7"/>
-                        <outlet property="nextButton" destination="je5-JS-dxI" id="Ouy-aL-bvZ"/>
-                        <outlet property="prevButton" destination="ixp-4x-J2h" id="ixH-Im-dbt"/>
                         <outlet property="resetButton" destination="lKy-a1-Bdq" id="S0E-BB-5N6"/>
                         <outlet property="resultImage" destination="zSy-aF-P4l" id="lBA-bo-yPw"/>
-                        <outlet property="searchButton" destination="ysB-eu-ydY" id="b50-0T-aUM"/>
+                        <outlet property="searchButtonAction" destination="ysB-eu-ydY" id="CTY-Gx-K9r"/>
                         <outlet property="searchTextField" destination="vHB-Po-xcq" id="uvg-2G-mMx"/>
+                        <outlet property="showNextImagesBtn" destination="je5-JS-dxI" id="mAr-md-juM"/>
+                        <outlet property="showPrevImagesBtn" destination="ixp-4x-J2h" id="pbS-QL-sGp"/>
                         <outlet property="topicInfoText" destination="u4O-5z-zlF" id="51a-v2-tLN"/>
                     </connections>
                 </viewController>
