@@ -117,7 +117,7 @@ class ViewController: UIViewController {
             showNextImagesBtn.isEnabled = true
             showPrevImagesBtn.isEnabled = false
             resultImage.image = UIImage(named: arr[2][imag3])
-            imageName.text = book[0][name3]
+            imageName.text = animal[0][name3]
             topic = 3
             topicInfoText.text = animal[1][text3]
         }
