@@ -121,7 +121,7 @@ class ViewController: UIViewController {
     
     func updateUnderscores(){
         for letter in word{
-            DisplayLabel.text! += "_"
+            DisplayLabel.text! += "_ "
         }
     }
     
