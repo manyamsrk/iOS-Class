@@ -82,7 +82,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" autocorrectionType="no" spellCheckingType="no"/>
                                         <connections>
-                                            <action selector="doneKeyPressed:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="Qx5-p9-VCv"/>
+                                            <action selector="guessKeyPressed:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="KCh-7L-8kA"/>
                                             <action selector="guessLetterFieldChanged:" destination="BYZ-38-t0r" eventType="editingChanged" id="Peq-jO-AQS"/>
                                         </connections>
                                     </textField>

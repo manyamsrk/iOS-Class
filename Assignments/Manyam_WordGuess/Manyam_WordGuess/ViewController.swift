@@ -45,7 +45,7 @@ class ViewController: UIViewController {
         wordHint = words[indexOfWord][1]
         hintLabel.text = "HINT: " + wordHint
         totalWordsLabel.text = "Total number of words in game: \(words.count)"
-        wordsRemainingLabel.text = "Total number of words remaining in game:\(words.count)"
+        wordsRemainingLabel.text = "Total number of words remaining in game: \(words.count)"
         formatWordField()
         guessLetterButtonPressed.isEnabled = false
         playAgainButtonPressed.isHidden = true
@@ -53,7 +53,7 @@ class ViewController: UIViewController {
     func updateCount(){
         wordsMissedLabel.text = "Total number of words guessed wrongly: \(wordsMissed)"
         wordsGuessedLabel.text = "Total number of words guessed successfully: \(wordsGuessed)"
-        wordsRemainingLabel.text = "Total number of words remaining in game:\(words.count - (wordsGuessed + wordsMissed))"
+        wordsRemainingLabel.text = "Total number of words remaining in game: \(words.count - (wordsGuessed + wordsMissed))"
     }
     func updateInterfaceAfterGuess(){
         guessLetterField.resignFirstResponder()
@@ -98,7 +98,7 @@ class ViewController: UIViewController {
             updateCount()
             updateImages()
         } else {
-            // Update our guess count
+            guessesRemaining = guessesRemaining - 1
             let guess = ( guessCount == 1 ? "Guess" : "Guesses")
             guessCountLabel.text = "You have made \(guessCount) \(guess)"
         }
@@ -116,7 +116,7 @@ class ViewController: UIViewController {
             guessLetterButtonPressed.isEnabled = false
         }
     }
-    @IBAction func doneKeyPressed(_ sender: UITextField) {
+    @IBAction func guessKeyPressed(_ sender: UITextField) {
         letterGuessed()
         updateInterfaceAfterGuess()
         let letter = guessLetterField.text
