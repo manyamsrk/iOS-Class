@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  Manyam_WordGuess
 //
-//  Created by Student on 3/21/22.
+//  Created by Siva Rama Krishna Manyam on 3/21/22.
 //
 
 import UIKit
@@ -22,14 +22,14 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var imageView: UIImageView!
     var words = [["TESLA", "Elon Musk"],
-                 ["GOOGLE","Famous Search Engine"],
-                 ["RUSSIA", "Country involved in Recent War"],
-                 ["TAJMAHAL", "Seven Wonders(India)"],
-                 ["WEBB", "Recent famous Telescope launced by NASA"]]
+                 ["GOOGLE","Famous search engine"],
+                 ["RUSSIA", "Country involved in recent War"],
+                 ["TAJMAHAL", "Seven wonders(India)"],
+                 ["WEBB", "Recent famous telescope launced by NASA"]]
 
     var images =  ["tesla","google","russia","tajmahal","jwst","giveup"]
     let maxNumOfWrongGuesses = 10
-    var guessesRemaining = 10
+    var guessesRemaining = 11
     var wordHint = ""
     var guessWord = ""
     var guessCount = 0
@@ -78,8 +78,9 @@ class ViewController: UIViewController {
         guessCount += 1
         guessesRemaining = guessesRemaining - 1
         let currentLetterGuessed = guessLetterField.text!
-        if !guessWord.contains(currentLetterGuessed) {
-        }
+//        if !guessWord.contains(currentLetterGuessed) {
+//            guessesRemaining = guessesRemaining - 1
+//        }
         let revealedWord = userGuessLabel.text!
         if guessesRemaining == 0 {
             playAgainButtonPressed.isHidden = false
@@ -102,7 +103,6 @@ class ViewController: UIViewController {
             guessCountLabel.text = "You have made \(guessCount) \(guess)"
         }
         if (wordsGuessed + wordsMissed) == words.count {
-            guessesRemaining = guessesRemaining - 1
             guessCountLabel.text = "Congratulations, You are done, Please start over again ?"
             updateImages()
         }
@@ -154,7 +154,7 @@ class ViewController: UIViewController {
         playAgainButtonPressed.isHidden = true
         guessLetterField.isEnabled = true
         guessLetterButtonPressed.isEnabled = false
-        guessesRemaining = maxNumOfWrongGuesses
+        guessesRemaining = maxNumOfWrongGuesses + 1
         guessedLetters = ""
         formatWordField()
         guessCountLabel.text = "You have Made Zero Guessess"
