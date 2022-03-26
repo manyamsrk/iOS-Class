@@ -76,9 +76,9 @@ class ViewController: UIViewController {
     func letterGuessed() {
         formatWordField()
         guessCount += 1
+        guessesRemaining = guessesRemaining - 1
         let currentLetterGuessed = guessLetterField.text!
         if !guessWord.contains(currentLetterGuessed) {
-            guessesRemaining = guessesRemaining - 1
         }
         let revealedWord = userGuessLabel.text!
         if guessesRemaining == 0 {
@@ -98,11 +98,11 @@ class ViewController: UIViewController {
             updateCount()
             updateImages()
         } else {
-            guessesRemaining = guessesRemaining - 1
             let guess = ( guessCount == 1 ? "Guess" : "Guesses")
             guessCountLabel.text = "You have made \(guessCount) \(guess)"
         }
         if (wordsGuessed + wordsMissed) == words.count {
+            guessesRemaining = guessesRemaining - 1
             guessCountLabel.text = "Congratulations, You are done, Please start over again ?"
             updateImages()
         }
@@ -135,6 +135,7 @@ class ViewController: UIViewController {
             guessLetterButtonPressed.isEnabled = false
         }
         else{
+            
             guessLetterButtonPressed.isEnabled = true
         }
     }
