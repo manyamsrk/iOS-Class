@@ -1,13 +1,13 @@
 //
-//  Manyam_DiceGameUITests.swift
-//  Manyam_DiceGameUITests
+//  TableViewDemoUITests.swift
+//  TableViewDemoUITests
 //
-//  Created by Manyam,Siva Rama Krishna on 2/24/22.
+//  Created by Manyam,Siva Rama Krishna on 3/29/22.
 //
 
 import XCTest
 
-class Manyam_DiceGameUITests: XCTestCase {
+class TableViewDemoUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
