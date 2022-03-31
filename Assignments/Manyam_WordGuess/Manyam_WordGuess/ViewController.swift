@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  Porika_WordGuess
+//  Manyam_WordGuess
 //
-//  Created by Nikhil Porika on 3/21/22.
+//  Created by Siva Rama Krishna Manyam on 3/21/22.
 //
 
 import UIKit
