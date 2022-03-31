@@ -1,26 +1,37 @@
 //
 //  ViewController.swift
-//  Porika_WordGuess
+//  Vobilishetty_WordGuess
 //
-//  Created by Nikhil Porika on 3/21/22.
+//  Created by Student on 3/30/22.
 //
 
 import UIKit
 
 class ViewController: UIViewController {
 
+    
     @IBOutlet weak var wordsGuessedLabel: UILabel!
+    
     @IBOutlet weak var wordsMissedLabel: UILabel!
+        
     @IBOutlet weak var wordsRemainingLabel: UILabel!
+            
     @IBOutlet weak var totalWordsLabel: UILabel!
+    
     @IBOutlet weak var userGuessLabel: UILabel!
+    
     @IBOutlet weak var guessLetterField: UITextField!
+    
     @IBOutlet weak var hintLabel: UILabel!
+        
     @IBOutlet weak var guessCountLabel: UILabel!
-    @IBOutlet weak var guessLetterButtonPressed: UIButton!
+        
     @IBOutlet weak var playAgainButtonPressed: UIButton!
     
     @IBOutlet weak var imageView: UIImageView!
+    
+    @IBOutlet weak var guessLetterButtonPressed: UIButton!
+    
     var words = [["TESLA", "Elon Musk"],
                  ["GOOGLE","Famous search engine"],
                  ["RUSSIA", "Country involved in recent War"],
@@ -38,9 +49,10 @@ class ViewController: UIViewController {
     var guessedLetters = ""
     var indexOfWord = 0
     
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        // Do any additional setup after loading the view.
         guessWord = words[indexOfWord][0]
         wordHint = words[indexOfWord][1]
         hintLabel.text = "HINT: " + wordHint
@@ -50,6 +62,7 @@ class ViewController: UIViewController {
         guessLetterButtonPressed.isEnabled = false
         playAgainButtonPressed.isHidden = true
     }
+
     func updateCount(){
         wordsMissedLabel.text = "Total number of words guessed wrongly: \(wordsMissed)"
         wordsGuessedLabel.text = "Total number of words guessed successfully: \(wordsGuessed)"
@@ -195,4 +208,6 @@ class ViewController: UIViewController {
         }
 }
 
+
 }
+
