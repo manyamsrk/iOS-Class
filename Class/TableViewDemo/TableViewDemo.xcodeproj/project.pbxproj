@@ -7,66 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		359914EE27C7DD33009CBEB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359914ED27C7DD33009CBEB0 /* AppDelegate.swift */; };
-		359914F027C7DD33009CBEB0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359914EF27C7DD33009CBEB0 /* SceneDelegate.swift */; };
-		359914F227C7DD33009CBEB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359914F127C7DD33009CBEB0 /* ViewController.swift */; };
-		359914F527C7DD33009CBEB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 359914F327C7DD33009CBEB0 /* Main.storyboard */; };
-		359914F727C7DD34009CBEB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 359914F627C7DD34009CBEB0 /* Assets.xcassets */; };
-		359914FA27C7DD34009CBEB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 359914F827C7DD34009CBEB0 /* LaunchScreen.storyboard */; };
-		3599150527C7DD34009CBEB0 /* Manyam_DiceGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3599150427C7DD34009CBEB0 /* Manyam_DiceGameTests.swift */; };
-		3599150F27C7DD34009CBEB0 /* Manyam_DiceGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3599150E27C7DD34009CBEB0 /* Manyam_DiceGameUITests.swift */; };
-		3599151127C7DD34009CBEB0 /* Manyam_DiceGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3599151027C7DD34009CBEB0 /* Manyam_DiceGameUITestsLaunchTests.swift */; };
+		35F45D5427F3543300312A63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F45D5327F3543300312A63 /* AppDelegate.swift */; };
+		35F45D5627F3543300312A63 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F45D5527F3543300312A63 /* SceneDelegate.swift */; };
+		35F45D5827F3543300312A63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F45D5727F3543300312A63 /* ViewController.swift */; };
+		35F45D5B27F3543300312A63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35F45D5927F3543300312A63 /* Main.storyboard */; };
+		35F45D5D27F3543400312A63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35F45D5C27F3543400312A63 /* Assets.xcassets */; };
+		35F45D6027F3543400312A63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35F45D5E27F3543400312A63 /* LaunchScreen.storyboard */; };
+		35F45D6B27F3543400312A63 /* TableViewDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F45D6A27F3543400312A63 /* TableViewDemoTests.swift */; };
+		35F45D7527F3543400312A63 /* TableViewDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F45D7427F3543400312A63 /* TableViewDemoUITests.swift */; };
+		35F45D7727F3543400312A63 /* TableViewDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F45D7627F3543400312A63 /* TableViewDemoUITestsLaunchTests.swift */; };
+		35F45D8427F355F700312A63 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F45D8327F355F700312A63 /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3599150127C7DD34009CBEB0 /* PBXContainerItemProxy */ = {
+		35F45D6727F3543400312A63 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 359914E227C7DD33009CBEB0 /* Project object */;
+			containerPortal = 35F45D4827F3543300312A63 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 359914E927C7DD33009CBEB0;
-			remoteInfo = Manyam_DiceGame;
+			remoteGlobalIDString = 35F45D4F27F3543300312A63;
+			remoteInfo = TableViewDemo;
 		};
-		3599150B27C7DD34009CBEB0 /* PBXContainerItemProxy */ = {
+		35F45D7127F3543400312A63 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 359914E227C7DD33009CBEB0 /* Project object */;
+			containerPortal = 35F45D4827F3543300312A63 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 359914E927C7DD33009CBEB0;
-			remoteInfo = Manyam_DiceGame;
+			remoteGlobalIDString = 35F45D4F27F3543300312A63;
+			remoteInfo = TableViewDemo;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		359914EA27C7DD33009CBEB0 /* Manyam_DiceGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Manyam_DiceGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		359914ED27C7DD33009CBEB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		359914EF27C7DD33009CBEB0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		359914F127C7DD33009CBEB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		359914F427C7DD33009CBEB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		359914F627C7DD34009CBEB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		359914F927C7DD34009CBEB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		359914FB27C7DD34009CBEB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3599150027C7DD34009CBEB0 /* Manyam_DiceGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Manyam_DiceGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3599150427C7DD34009CBEB0 /* Manyam_DiceGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manyam_DiceGameTests.swift; sourceTree = "<group>"; };
-		3599150A27C7DD34009CBEB0 /* Manyam_DiceGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Manyam_DiceGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3599150E27C7DD34009CBEB0 /* Manyam_DiceGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manyam_DiceGameUITests.swift; sourceTree = "<group>"; };
-		3599151027C7DD34009CBEB0 /* Manyam_DiceGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manyam_DiceGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		35F45D5027F3543300312A63 /* TableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35F45D5327F3543300312A63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		35F45D5527F3543300312A63 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		35F45D5727F3543300312A63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		35F45D5A27F3543300312A63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		35F45D5C27F3543400312A63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35F45D5F27F3543400312A63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		35F45D6127F3543400312A63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35F45D6627F3543400312A63 /* TableViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35F45D6A27F3543400312A63 /* TableViewDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewDemoTests.swift; sourceTree = "<group>"; };
+		35F45D7027F3543400312A63 /* TableViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35F45D7427F3543400312A63 /* TableViewDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewDemoUITests.swift; sourceTree = "<group>"; };
+		35F45D7627F3543400312A63 /* TableViewDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		35F45D8327F355F700312A63 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		359914E727C7DD33009CBEB0 /* Frameworks */ = {
+		35F45D4D27F3543300312A63 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		359914FD27C7DD34009CBEB0 /* Frameworks */ = {
+		35F45D6327F3543400312A63 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3599150727C7DD34009CBEB0 /* Frameworks */ = {
+		35F45D6D27F3543400312A63 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,137 +78,138 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		359914E127C7DD33009CBEB0 = {
+		35F45D4727F3543300312A63 = {
 			isa = PBXGroup;
 			children = (
-				359914EC27C7DD33009CBEB0 /* Manyam_DiceGame */,
-				3599150327C7DD34009CBEB0 /* Manyam_DiceGameTests */,
-				3599150D27C7DD34009CBEB0 /* Manyam_DiceGameUITests */,
-				359914EB27C7DD33009CBEB0 /* Products */,
+				35F45D5227F3543300312A63 /* TableViewDemo */,
+				35F45D6927F3543400312A63 /* TableViewDemoTests */,
+				35F45D7327F3543400312A63 /* TableViewDemoUITests */,
+				35F45D5127F3543300312A63 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		359914EB27C7DD33009CBEB0 /* Products */ = {
+		35F45D5127F3543300312A63 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				359914EA27C7DD33009CBEB0 /* Manyam_DiceGame.app */,
-				3599150027C7DD34009CBEB0 /* Manyam_DiceGameTests.xctest */,
-				3599150A27C7DD34009CBEB0 /* Manyam_DiceGameUITests.xctest */,
+				35F45D5027F3543300312A63 /* TableViewDemo.app */,
+				35F45D6627F3543400312A63 /* TableViewDemoTests.xctest */,
+				35F45D7027F3543400312A63 /* TableViewDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		359914EC27C7DD33009CBEB0 /* Manyam_DiceGame */ = {
+		35F45D5227F3543300312A63 /* TableViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				359914ED27C7DD33009CBEB0 /* AppDelegate.swift */,
-				359914EF27C7DD33009CBEB0 /* SceneDelegate.swift */,
-				359914F127C7DD33009CBEB0 /* ViewController.swift */,
-				359914F327C7DD33009CBEB0 /* Main.storyboard */,
-				359914F627C7DD34009CBEB0 /* Assets.xcassets */,
-				359914F827C7DD34009CBEB0 /* LaunchScreen.storyboard */,
-				359914FB27C7DD34009CBEB0 /* Info.plist */,
+				35F45D5327F3543300312A63 /* AppDelegate.swift */,
+				35F45D5527F3543300312A63 /* SceneDelegate.swift */,
+				35F45D5727F3543300312A63 /* ViewController.swift */,
+				35F45D5927F3543300312A63 /* Main.storyboard */,
+				35F45D5C27F3543400312A63 /* Assets.xcassets */,
+				35F45D5E27F3543400312A63 /* LaunchScreen.storyboard */,
+				35F45D6127F3543400312A63 /* Info.plist */,
+				35F45D8327F355F700312A63 /* DetailsViewController.swift */,
 			);
-			path = Manyam_DiceGame;
+			path = TableViewDemo;
 			sourceTree = "<group>";
 		};
-		3599150327C7DD34009CBEB0 /* Manyam_DiceGameTests */ = {
+		35F45D6927F3543400312A63 /* TableViewDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				3599150427C7DD34009CBEB0 /* Manyam_DiceGameTests.swift */,
+				35F45D6A27F3543400312A63 /* TableViewDemoTests.swift */,
 			);
-			path = Manyam_DiceGameTests;
+			path = TableViewDemoTests;
 			sourceTree = "<group>";
 		};
-		3599150D27C7DD34009CBEB0 /* Manyam_DiceGameUITests */ = {
+		35F45D7327F3543400312A63 /* TableViewDemoUITests */ = {
 			isa = PBXGroup;
 			children = (
-				3599150E27C7DD34009CBEB0 /* Manyam_DiceGameUITests.swift */,
-				3599151027C7DD34009CBEB0 /* Manyam_DiceGameUITestsLaunchTests.swift */,
+				35F45D7427F3543400312A63 /* TableViewDemoUITests.swift */,
+				35F45D7627F3543400312A63 /* TableViewDemoUITestsLaunchTests.swift */,
 			);
-			path = Manyam_DiceGameUITests;
+			path = TableViewDemoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		359914E927C7DD33009CBEB0 /* Manyam_DiceGame */ = {
+		35F45D4F27F3543300312A63 /* TableViewDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3599151427C7DD34009CBEB0 /* Build configuration list for PBXNativeTarget "Manyam_DiceGame" */;
+			buildConfigurationList = 35F45D7A27F3543400312A63 /* Build configuration list for PBXNativeTarget "TableViewDemo" */;
 			buildPhases = (
-				359914E627C7DD33009CBEB0 /* Sources */,
-				359914E727C7DD33009CBEB0 /* Frameworks */,
-				359914E827C7DD33009CBEB0 /* Resources */,
+				35F45D4C27F3543300312A63 /* Sources */,
+				35F45D4D27F3543300312A63 /* Frameworks */,
+				35F45D4E27F3543300312A63 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Manyam_DiceGame;
-			productName = Manyam_DiceGame;
-			productReference = 359914EA27C7DD33009CBEB0 /* Manyam_DiceGame.app */;
+			name = TableViewDemo;
+			productName = TableViewDemo;
+			productReference = 35F45D5027F3543300312A63 /* TableViewDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		359914FF27C7DD34009CBEB0 /* Manyam_DiceGameTests */ = {
+		35F45D6527F3543400312A63 /* TableViewDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3599151727C7DD34009CBEB0 /* Build configuration list for PBXNativeTarget "Manyam_DiceGameTests" */;
+			buildConfigurationList = 35F45D7D27F3543400312A63 /* Build configuration list for PBXNativeTarget "TableViewDemoTests" */;
 			buildPhases = (
-				359914FC27C7DD34009CBEB0 /* Sources */,
-				359914FD27C7DD34009CBEB0 /* Frameworks */,
-				359914FE27C7DD34009CBEB0 /* Resources */,
+				35F45D6227F3543400312A63 /* Sources */,
+				35F45D6327F3543400312A63 /* Frameworks */,
+				35F45D6427F3543400312A63 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3599150227C7DD34009CBEB0 /* PBXTargetDependency */,
+				35F45D6827F3543400312A63 /* PBXTargetDependency */,
 			);
-			name = Manyam_DiceGameTests;
-			productName = Manyam_DiceGameTests;
-			productReference = 3599150027C7DD34009CBEB0 /* Manyam_DiceGameTests.xctest */;
+			name = TableViewDemoTests;
+			productName = TableViewDemoTests;
+			productReference = 35F45D6627F3543400312A63 /* TableViewDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3599150927C7DD34009CBEB0 /* Manyam_DiceGameUITests */ = {
+		35F45D6F27F3543400312A63 /* TableViewDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3599151A27C7DD34009CBEB0 /* Build configuration list for PBXNativeTarget "Manyam_DiceGameUITests" */;
+			buildConfigurationList = 35F45D8027F3543400312A63 /* Build configuration list for PBXNativeTarget "TableViewDemoUITests" */;
 			buildPhases = (
-				3599150627C7DD34009CBEB0 /* Sources */,
-				3599150727C7DD34009CBEB0 /* Frameworks */,
-				3599150827C7DD34009CBEB0 /* Resources */,
+				35F45D6C27F3543400312A63 /* Sources */,
+				35F45D6D27F3543400312A63 /* Frameworks */,
+				35F45D6E27F3543400312A63 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3599150C27C7DD34009CBEB0 /* PBXTargetDependency */,
+				35F45D7227F3543400312A63 /* PBXTargetDependency */,
 			);
-			name = Manyam_DiceGameUITests;
-			productName = Manyam_DiceGameUITests;
-			productReference = 3599150A27C7DD34009CBEB0 /* Manyam_DiceGameUITests.xctest */;
+			name = TableViewDemoUITests;
+			productName = TableViewDemoUITests;
+			productReference = 35F45D7027F3543400312A63 /* TableViewDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		359914E227C7DD33009CBEB0 /* Project object */ = {
+		35F45D4827F3543300312A63 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					359914E927C7DD33009CBEB0 = {
+					35F45D4F27F3543300312A63 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
-					359914FF27C7DD34009CBEB0 = {
+					35F45D6527F3543400312A63 = {
 						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = 359914E927C7DD33009CBEB0;
+						TestTargetID = 35F45D4F27F3543300312A63;
 					};
-					3599150927C7DD34009CBEB0 = {
+					35F45D6F27F3543400312A63 = {
 						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = 359914E927C7DD33009CBEB0;
+						TestTargetID = 35F45D4F27F3543300312A63;
 					};
 				};
 			};
-			buildConfigurationList = 359914E527C7DD33009CBEB0 /* Build configuration list for PBXProject "Manyam_DiceGame" */;
+			buildConfigurationList = 35F45D4B27F3543300312A63 /* Build configuration list for PBXProject "TableViewDemo" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -214,37 +217,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 359914E127C7DD33009CBEB0;
-			productRefGroup = 359914EB27C7DD33009CBEB0 /* Products */;
+			mainGroup = 35F45D4727F3543300312A63;
+			productRefGroup = 35F45D5127F3543300312A63 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				359914E927C7DD33009CBEB0 /* Manyam_DiceGame */,
-				359914FF27C7DD34009CBEB0 /* Manyam_DiceGameTests */,
-				3599150927C7DD34009CBEB0 /* Manyam_DiceGameUITests */,
+				35F45D4F27F3543300312A63 /* TableViewDemo */,
+				35F45D6527F3543400312A63 /* TableViewDemoTests */,
+				35F45D6F27F3543400312A63 /* TableViewDemoUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		359914E827C7DD33009CBEB0 /* Resources */ = {
+		35F45D4E27F3543300312A63 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				359914FA27C7DD34009CBEB0 /* LaunchScreen.storyboard in Resources */,
-				359914F727C7DD34009CBEB0 /* Assets.xcassets in Resources */,
-				359914F527C7DD33009CBEB0 /* Main.storyboard in Resources */,
+				35F45D6027F3543400312A63 /* LaunchScreen.storyboard in Resources */,
+				35F45D5D27F3543400312A63 /* Assets.xcassets in Resources */,
+				35F45D5B27F3543300312A63 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		359914FE27C7DD34009CBEB0 /* Resources */ = {
+		35F45D6427F3543400312A63 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3599150827C7DD34009CBEB0 /* Resources */ = {
+		35F45D6E27F3543400312A63 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -254,61 +257,62 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		359914E627C7DD33009CBEB0 /* Sources */ = {
+		35F45D4C27F3543300312A63 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				359914F227C7DD33009CBEB0 /* ViewController.swift in Sources */,
-				359914EE27C7DD33009CBEB0 /* AppDelegate.swift in Sources */,
-				359914F027C7DD33009CBEB0 /* SceneDelegate.swift in Sources */,
+				35F45D5827F3543300312A63 /* ViewController.swift in Sources */,
+				35F45D5427F3543300312A63 /* AppDelegate.swift in Sources */,
+				35F45D5627F3543300312A63 /* SceneDelegate.swift in Sources */,
+				35F45D8427F355F700312A63 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		359914FC27C7DD34009CBEB0 /* Sources */ = {
+		35F45D6227F3543400312A63 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3599150527C7DD34009CBEB0 /* Manyam_DiceGameTests.swift in Sources */,
+				35F45D6B27F3543400312A63 /* TableViewDemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3599150627C7DD34009CBEB0 /* Sources */ = {
+		35F45D6C27F3543400312A63 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3599151127C7DD34009CBEB0 /* Manyam_DiceGameUITestsLaunchTests.swift in Sources */,
-				3599150F27C7DD34009CBEB0 /* Manyam_DiceGameUITests.swift in Sources */,
+				35F45D7527F3543400312A63 /* TableViewDemoUITests.swift in Sources */,
+				35F45D7727F3543400312A63 /* TableViewDemoUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3599150227C7DD34009CBEB0 /* PBXTargetDependency */ = {
+		35F45D6827F3543400312A63 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 359914E927C7DD33009CBEB0 /* Manyam_DiceGame */;
-			targetProxy = 3599150127C7DD34009CBEB0 /* PBXContainerItemProxy */;
+			target = 35F45D4F27F3543300312A63 /* TableViewDemo */;
+			targetProxy = 35F45D6727F3543400312A63 /* PBXContainerItemProxy */;
 		};
-		3599150C27C7DD34009CBEB0 /* PBXTargetDependency */ = {
+		35F45D7227F3543400312A63 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 359914E927C7DD33009CBEB0 /* Manyam_DiceGame */;
-			targetProxy = 3599150B27C7DD34009CBEB0 /* PBXContainerItemProxy */;
+			target = 35F45D4F27F3543300312A63 /* TableViewDemo */;
+			targetProxy = 35F45D7127F3543400312A63 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		359914F327C7DD33009CBEB0 /* Main.storyboard */ = {
+		35F45D5927F3543300312A63 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				359914F427C7DD33009CBEB0 /* Base */,
+				35F45D5A27F3543300312A63 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		359914F827C7DD34009CBEB0 /* LaunchScreen.storyboard */ = {
+		35F45D5E27F3543400312A63 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				359914F927C7DD34009CBEB0 /* Base */,
+				35F45D5F27F3543400312A63 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -316,7 +320,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		3599151227C7DD34009CBEB0 /* Debug */ = {
+		35F45D7827F3543400312A63 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -377,7 +381,7 @@
 			};
 			name = Debug;
 		};
-		3599151327C7DD34009CBEB0 /* Release */ = {
+		35F45D7927F3543400312A63 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -432,7 +436,7 @@
 			};
 			name = Release;
 		};
-		3599151527C7DD34009CBEB0 /* Debug */ = {
+		35F45D7B27F3543400312A63 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -440,8 +444,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Manyam_DiceGame/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Manyam_DiceGame;
+				INFOPLIST_FILE = TableViewDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TableViewDemo;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -452,7 +456,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "NWMSU.Manyam-DiceGame";
+				PRODUCT_BUNDLE_IDENTIFIER = NWMSU.TableViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -460,7 +464,7 @@
 			};
 			name = Debug;
 		};
-		3599151627C7DD34009CBEB0 /* Release */ = {
+		35F45D7C27F3543400312A63 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -468,8 +472,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Manyam_DiceGame/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Manyam_DiceGame;
+				INFOPLIST_FILE = TableViewDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TableViewDemo;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -480,7 +484,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "NWMSU.Manyam-DiceGame";
+				PRODUCT_BUNDLE_IDENTIFIER = NWMSU.TableViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -488,7 +492,7 @@
 			};
 			name = Release;
 		};
-		3599151827C7DD34009CBEB0 /* Debug */ = {
+		35F45D7E27F3543400312A63 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -498,16 +502,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "NWMSU.Manyam-DiceGameTests";
+				PRODUCT_BUNDLE_IDENTIFIER = NWMSU.TableViewDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Manyam_DiceGame.app/Manyam_DiceGame";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableViewDemo.app/TableViewDemo";
 			};
 			name = Debug;
 		};
-		3599151927C7DD34009CBEB0 /* Release */ = {
+		35F45D7F27F3543400312A63 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -517,16 +521,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "NWMSU.Manyam-DiceGameTests";
+				PRODUCT_BUNDLE_IDENTIFIER = NWMSU.TableViewDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Manyam_DiceGame.app/Manyam_DiceGame";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableViewDemo.app/TableViewDemo";
 			};
 			name = Release;
 		};
-		3599151B27C7DD34009CBEB0 /* Debug */ = {
+		35F45D8127F3543400312A63 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -534,16 +538,16 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "NWMSU.Manyam-DiceGameUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = NWMSU.TableViewDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Manyam_DiceGame;
+				TEST_TARGET_NAME = TableViewDemo;
 			};
 			name = Debug;
 		};
-		3599151C27C7DD34009CBEB0 /* Release */ = {
+		35F45D8227F3543400312A63 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -551,55 +555,55 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "NWMSU.Manyam-DiceGameUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = NWMSU.TableViewDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Manyam_DiceGame;
+				TEST_TARGET_NAME = TableViewDemo;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		359914E527C7DD33009CBEB0 /* Build configuration list for PBXProject "Manyam_DiceGame" */ = {
+		35F45D4B27F3543300312A63 /* Build configuration list for PBXProject "TableViewDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3599151227C7DD34009CBEB0 /* Debug */,
-				3599151327C7DD34009CBEB0 /* Release */,
+				35F45D7827F3543400312A63 /* Debug */,
+				35F45D7927F3543400312A63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3599151427C7DD34009CBEB0 /* Build configuration list for PBXNativeTarget "Manyam_DiceGame" */ = {
+		35F45D7A27F3543400312A63 /* Build configuration list for PBXNativeTarget "TableViewDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3599151527C7DD34009CBEB0 /* Debug */,
-				3599151627C7DD34009CBEB0 /* Release */,
+				35F45D7B27F3543400312A63 /* Debug */,
+				35F45D7C27F3543400312A63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3599151727C7DD34009CBEB0 /* Build configuration list for PBXNativeTarget "Manyam_DiceGameTests" */ = {
+		35F45D7D27F3543400312A63 /* Build configuration list for PBXNativeTarget "TableViewDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3599151827C7DD34009CBEB0 /* Debug */,
-				3599151927C7DD34009CBEB0 /* Release */,
+				35F45D7E27F3543400312A63 /* Debug */,
+				35F45D7F27F3543400312A63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3599151A27C7DD34009CBEB0 /* Build configuration list for PBXNativeTarget "Manyam_DiceGameUITests" */ = {
+		35F45D8027F3543400312A63 /* Build configuration list for PBXNativeTarget "TableViewDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3599151B27C7DD34009CBEB0 /* Debug */,
-				3599151C27C7DD34009CBEB0 /* Release */,
+				35F45D8127F3543400312A63 /* Debug */,
+				35F45D8227F3543400312A63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 359914E227C7DD33009CBEB0 /* Project object */;
+	rootObject = 35F45D4827F3543300312A63 /* Project object */;
 }
