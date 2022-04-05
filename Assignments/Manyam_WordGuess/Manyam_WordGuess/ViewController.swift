@@ -118,7 +118,9 @@ class ViewController: UIViewController {
     }
     @IBAction func guessKeyPressed(_ sender: UITextField) {
         letterGuessed()
-        updateInterfaceAfterGuess()
+        guessLetterField.becomeFirstResponder()
+        guessLetterField.text = "";
+//        updateInterfaceAfterGuess()
         let letter = guessLetterField.text
         if letter?.isEmpty == true{
             guessLetterButtonPressed.isEnabled = false
@@ -129,7 +131,9 @@ class ViewController: UIViewController {
     }
     @IBAction func guessLetterButtonPressed(_ sender: UIButton) {
         letterGuessed()
-        updateInterfaceAfterGuess()
+//        updateInterfaceAfterGuess()
+        guessLetterField.becomeFirstResponder()
+        guessLetterField.text = ""
         let letter = guessLetterField.text
         if letter?.isEmpty == true{
             guessLetterButtonPressed.isEnabled = false
