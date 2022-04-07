@@ -118,7 +118,7 @@
                                 <rect key="frame" x="133" y="289" width="148" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Roll a dice"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Roll a Dice"/>
                                 <connections>
                                     <action selector="Rolladice:" destination="bS4-Ks-9b2" eventType="touchUpInside" id="z3o-dg-lnx"/>
                                 </connections>
