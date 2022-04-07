@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Manyam_DiceGame
 //
-//  Created by Manyam,Siva Rama Krishna on 4/7/22.
+//  Created by Manyam,Siva Rama Krishna on 2/24/22.
 //
 
 import UIKit

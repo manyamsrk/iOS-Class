@@ -7,68 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		359D7C5227FF2D6F00AB98D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359D7C5127FF2D6F00AB98D2 /* AppDelegate.swift */; };
-		359D7C5427FF2D6F00AB98D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359D7C5327FF2D6F00AB98D2 /* SceneDelegate.swift */; };
-		359D7C5627FF2D6F00AB98D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359D7C5527FF2D6F00AB98D2 /* ViewController.swift */; };
-		359D7C5927FF2D6F00AB98D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 359D7C5727FF2D6F00AB98D2 /* Main.storyboard */; };
-		359D7C5B27FF2D7100AB98D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 359D7C5A27FF2D7100AB98D2 /* Assets.xcassets */; };
-		359D7C5E27FF2D7100AB98D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 359D7C5C27FF2D7100AB98D2 /* LaunchScreen.storyboard */; };
-		359D7C6927FF2D7100AB98D2 /* Manyam_DiceGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359D7C6827FF2D7100AB98D2 /* Manyam_DiceGameTests.swift */; };
-		359D7C7327FF2D7100AB98D2 /* Manyam_DiceGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359D7C7227FF2D7100AB98D2 /* Manyam_DiceGameUITests.swift */; };
-		359D7C7527FF2D7100AB98D2 /* Manyam_DiceGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359D7C7427FF2D7100AB98D2 /* Manyam_DiceGameUITestsLaunchTests.swift */; };
-		359D7C8227FF2E8A00AB98D2 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359D7C8127FF2E8A00AB98D2 /* GameViewController.swift */; };
+		359914EE27C7DD33009CBEB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359914ED27C7DD33009CBEB0 /* AppDelegate.swift */; };
+		359914F027C7DD33009CBEB0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359914EF27C7DD33009CBEB0 /* SceneDelegate.swift */; };
+		359914F227C7DD33009CBEB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359914F127C7DD33009CBEB0 /* ViewController.swift */; };
+		359914F527C7DD33009CBEB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 359914F327C7DD33009CBEB0 /* Main.storyboard */; };
+		359914F727C7DD34009CBEB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 359914F627C7DD34009CBEB0 /* Assets.xcassets */; };
+		359914FA27C7DD34009CBEB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 359914F827C7DD34009CBEB0 /* LaunchScreen.storyboard */; };
+		3599150527C7DD34009CBEB0 /* Manyam_DiceGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3599150427C7DD34009CBEB0 /* Manyam_DiceGameTests.swift */; };
+		3599150F27C7DD34009CBEB0 /* Manyam_DiceGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3599150E27C7DD34009CBEB0 /* Manyam_DiceGameUITests.swift */; };
+		3599151127C7DD34009CBEB0 /* Manyam_DiceGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3599151027C7DD34009CBEB0 /* Manyam_DiceGameUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		359D7C6527FF2D7100AB98D2 /* PBXContainerItemProxy */ = {
+		3599150127C7DD34009CBEB0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 359D7C4627FF2D6F00AB98D2 /* Project object */;
+			containerPortal = 359914E227C7DD33009CBEB0 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 359D7C4D27FF2D6F00AB98D2;
+			remoteGlobalIDString = 359914E927C7DD33009CBEB0;
 			remoteInfo = Manyam_DiceGame;
 		};
-		359D7C6F27FF2D7100AB98D2 /* PBXContainerItemProxy */ = {
+		3599150B27C7DD34009CBEB0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 359D7C4627FF2D6F00AB98D2 /* Project object */;
+			containerPortal = 359914E227C7DD33009CBEB0 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 359D7C4D27FF2D6F00AB98D2;
+			remoteGlobalIDString = 359914E927C7DD33009CBEB0;
 			remoteInfo = Manyam_DiceGame;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		359D7C4E27FF2D6F00AB98D2 /* Manyam_DiceGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Manyam_DiceGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		359D7C5127FF2D6F00AB98D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		359D7C5327FF2D6F00AB98D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		359D7C5527FF2D6F00AB98D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		359D7C5827FF2D6F00AB98D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		359D7C5A27FF2D7100AB98D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		359D7C5D27FF2D7100AB98D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		359D7C5F27FF2D7100AB98D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		359D7C6427FF2D7100AB98D2 /* Manyam_DiceGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Manyam_DiceGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		359D7C6827FF2D7100AB98D2 /* Manyam_DiceGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manyam_DiceGameTests.swift; sourceTree = "<group>"; };
-		359D7C6E27FF2D7100AB98D2 /* Manyam_DiceGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Manyam_DiceGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		359D7C7227FF2D7100AB98D2 /* Manyam_DiceGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manyam_DiceGameUITests.swift; sourceTree = "<group>"; };
-		359D7C7427FF2D7100AB98D2 /* Manyam_DiceGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manyam_DiceGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		359D7C8127FF2E8A00AB98D2 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		359914EA27C7DD33009CBEB0 /* Manyam_DiceGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Manyam_DiceGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		359914ED27C7DD33009CBEB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		359914EF27C7DD33009CBEB0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		359914F127C7DD33009CBEB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		359914F427C7DD33009CBEB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		359914F627C7DD34009CBEB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		359914F927C7DD34009CBEB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		359914FB27C7DD34009CBEB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3599150027C7DD34009CBEB0 /* Manyam_DiceGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Manyam_DiceGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3599150427C7DD34009CBEB0 /* Manyam_DiceGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manyam_DiceGameTests.swift; sourceTree = "<group>"; };
+		3599150A27C7DD34009CBEB0 /* Manyam_DiceGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Manyam_DiceGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3599150E27C7DD34009CBEB0 /* Manyam_DiceGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manyam_DiceGameUITests.swift; sourceTree = "<group>"; };
+		3599151027C7DD34009CBEB0 /* Manyam_DiceGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manyam_DiceGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		359D7C4B27FF2D6F00AB98D2 /* Frameworks */ = {
+		359914E727C7DD33009CBEB0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		359D7C6127FF2D7100AB98D2 /* Frameworks */ = {
+		359914FD27C7DD34009CBEB0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		359D7C6B27FF2D7100AB98D2 /* Frameworks */ = {
+		3599150727C7DD34009CBEB0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,54 +76,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		359D7C4527FF2D6F00AB98D2 = {
+		359914E127C7DD33009CBEB0 = {
 			isa = PBXGroup;
 			children = (
-				359D7C5027FF2D6F00AB98D2 /* Manyam_DiceGame */,
-				359D7C6727FF2D7100AB98D2 /* Manyam_DiceGameTests */,
-				359D7C7127FF2D7100AB98D2 /* Manyam_DiceGameUITests */,
-				359D7C4F27FF2D6F00AB98D2 /* Products */,
+				359914EC27C7DD33009CBEB0 /* Manyam_DiceGame */,
+				3599150327C7DD34009CBEB0 /* Manyam_DiceGameTests */,
+				3599150D27C7DD34009CBEB0 /* Manyam_DiceGameUITests */,
+				359914EB27C7DD33009CBEB0 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		359D7C4F27FF2D6F00AB98D2 /* Products */ = {
+		359914EB27C7DD33009CBEB0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				359D7C4E27FF2D6F00AB98D2 /* Manyam_DiceGame.app */,
-				359D7C6427FF2D7100AB98D2 /* Manyam_DiceGameTests.xctest */,
-				359D7C6E27FF2D7100AB98D2 /* Manyam_DiceGameUITests.xctest */,
+				359914EA27C7DD33009CBEB0 /* Manyam_DiceGame.app */,
+				3599150027C7DD34009CBEB0 /* Manyam_DiceGameTests.xctest */,
+				3599150A27C7DD34009CBEB0 /* Manyam_DiceGameUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		359D7C5027FF2D6F00AB98D2 /* Manyam_DiceGame */ = {
+		359914EC27C7DD33009CBEB0 /* Manyam_DiceGame */ = {
 			isa = PBXGroup;
 			children = (
-				359D7C5127FF2D6F00AB98D2 /* AppDelegate.swift */,
-				359D7C5327FF2D6F00AB98D2 /* SceneDelegate.swift */,
-				359D7C5527FF2D6F00AB98D2 /* ViewController.swift */,
-				359D7C5727FF2D6F00AB98D2 /* Main.storyboard */,
-				359D7C5A27FF2D7100AB98D2 /* Assets.xcassets */,
-				359D7C5C27FF2D7100AB98D2 /* LaunchScreen.storyboard */,
-				359D7C5F27FF2D7100AB98D2 /* Info.plist */,
-				359D7C8127FF2E8A00AB98D2 /* GameViewController.swift */,
+				359914ED27C7DD33009CBEB0 /* AppDelegate.swift */,
+				359914EF27C7DD33009CBEB0 /* SceneDelegate.swift */,
+				359914F127C7DD33009CBEB0 /* ViewController.swift */,
+				359914F327C7DD33009CBEB0 /* Main.storyboard */,
+				359914F627C7DD34009CBEB0 /* Assets.xcassets */,
+				359914F827C7DD34009CBEB0 /* LaunchScreen.storyboard */,
+				359914FB27C7DD34009CBEB0 /* Info.plist */,
 			);
 			path = Manyam_DiceGame;
 			sourceTree = "<group>";
 		};
-		359D7C6727FF2D7100AB98D2 /* Manyam_DiceGameTests */ = {
+		3599150327C7DD34009CBEB0 /* Manyam_DiceGameTests */ = {
 			isa = PBXGroup;
 			children = (
-				359D7C6827FF2D7100AB98D2 /* Manyam_DiceGameTests.swift */,
+				3599150427C7DD34009CBEB0 /* Manyam_DiceGameTests.swift */,
 			);
 			path = Manyam_DiceGameTests;
 			sourceTree = "<group>";
 		};
-		359D7C7127FF2D7100AB98D2 /* Manyam_DiceGameUITests */ = {
+		3599150D27C7DD34009CBEB0 /* Manyam_DiceGameUITests */ = {
 			isa = PBXGroup;
 			children = (
-				359D7C7227FF2D7100AB98D2 /* Manyam_DiceGameUITests.swift */,
-				359D7C7427FF2D7100AB98D2 /* Manyam_DiceGameUITestsLaunchTests.swift */,
+				3599150E27C7DD34009CBEB0 /* Manyam_DiceGameUITests.swift */,
+				3599151027C7DD34009CBEB0 /* Manyam_DiceGameUITestsLaunchTests.swift */,
 			);
 			path = Manyam_DiceGameUITests;
 			sourceTree = "<group>";
@@ -133,13 +130,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		359D7C4D27FF2D6F00AB98D2 /* Manyam_DiceGame */ = {
+		359914E927C7DD33009CBEB0 /* Manyam_DiceGame */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 359D7C7827FF2D7100AB98D2 /* Build configuration list for PBXNativeTarget "Manyam_DiceGame" */;
+			buildConfigurationList = 3599151427C7DD34009CBEB0 /* Build configuration list for PBXNativeTarget "Manyam_DiceGame" */;
 			buildPhases = (
-				359D7C4A27FF2D6F00AB98D2 /* Sources */,
-				359D7C4B27FF2D6F00AB98D2 /* Frameworks */,
-				359D7C4C27FF2D6F00AB98D2 /* Resources */,
+				359914E627C7DD33009CBEB0 /* Sources */,
+				359914E727C7DD33009CBEB0 /* Frameworks */,
+				359914E827C7DD33009CBEB0 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -147,69 +144,69 @@
 			);
 			name = Manyam_DiceGame;
 			productName = Manyam_DiceGame;
-			productReference = 359D7C4E27FF2D6F00AB98D2 /* Manyam_DiceGame.app */;
+			productReference = 359914EA27C7DD33009CBEB0 /* Manyam_DiceGame.app */;
 			productType = "com.apple.product-type.application";
 		};
-		359D7C6327FF2D7100AB98D2 /* Manyam_DiceGameTests */ = {
+		359914FF27C7DD34009CBEB0 /* Manyam_DiceGameTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 359D7C7B27FF2D7100AB98D2 /* Build configuration list for PBXNativeTarget "Manyam_DiceGameTests" */;
+			buildConfigurationList = 3599151727C7DD34009CBEB0 /* Build configuration list for PBXNativeTarget "Manyam_DiceGameTests" */;
 			buildPhases = (
-				359D7C6027FF2D7100AB98D2 /* Sources */,
-				359D7C6127FF2D7100AB98D2 /* Frameworks */,
-				359D7C6227FF2D7100AB98D2 /* Resources */,
+				359914FC27C7DD34009CBEB0 /* Sources */,
+				359914FD27C7DD34009CBEB0 /* Frameworks */,
+				359914FE27C7DD34009CBEB0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				359D7C6627FF2D7100AB98D2 /* PBXTargetDependency */,
+				3599150227C7DD34009CBEB0 /* PBXTargetDependency */,
 			);
 			name = Manyam_DiceGameTests;
 			productName = Manyam_DiceGameTests;
-			productReference = 359D7C6427FF2D7100AB98D2 /* Manyam_DiceGameTests.xctest */;
+			productReference = 3599150027C7DD34009CBEB0 /* Manyam_DiceGameTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		359D7C6D27FF2D7100AB98D2 /* Manyam_DiceGameUITests */ = {
+		3599150927C7DD34009CBEB0 /* Manyam_DiceGameUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 359D7C7E27FF2D7100AB98D2 /* Build configuration list for PBXNativeTarget "Manyam_DiceGameUITests" */;
+			buildConfigurationList = 3599151A27C7DD34009CBEB0 /* Build configuration list for PBXNativeTarget "Manyam_DiceGameUITests" */;
 			buildPhases = (
-				359D7C6A27FF2D7100AB98D2 /* Sources */,
-				359D7C6B27FF2D7100AB98D2 /* Frameworks */,
-				359D7C6C27FF2D7100AB98D2 /* Resources */,
+				3599150627C7DD34009CBEB0 /* Sources */,
+				3599150727C7DD34009CBEB0 /* Frameworks */,
+				3599150827C7DD34009CBEB0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				359D7C7027FF2D7100AB98D2 /* PBXTargetDependency */,
+				3599150C27C7DD34009CBEB0 /* PBXTargetDependency */,
 			);
 			name = Manyam_DiceGameUITests;
 			productName = Manyam_DiceGameUITests;
-			productReference = 359D7C6E27FF2D7100AB98D2 /* Manyam_DiceGameUITests.xctest */;
+			productReference = 3599150A27C7DD34009CBEB0 /* Manyam_DiceGameUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		359D7C4627FF2D6F00AB98D2 /* Project object */ = {
+		359914E227C7DD33009CBEB0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					359D7C4D27FF2D6F00AB98D2 = {
+					359914E927C7DD33009CBEB0 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
-					359D7C6327FF2D7100AB98D2 = {
+					359914FF27C7DD34009CBEB0 = {
 						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = 359D7C4D27FF2D6F00AB98D2;
+						TestTargetID = 359914E927C7DD33009CBEB0;
 					};
-					359D7C6D27FF2D7100AB98D2 = {
+					3599150927C7DD34009CBEB0 = {
 						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = 359D7C4D27FF2D6F00AB98D2;
+						TestTargetID = 359914E927C7DD33009CBEB0;
 					};
 				};
 			};
-			buildConfigurationList = 359D7C4927FF2D6F00AB98D2 /* Build configuration list for PBXProject "Manyam_DiceGame" */;
+			buildConfigurationList = 359914E527C7DD33009CBEB0 /* Build configuration list for PBXProject "Manyam_DiceGame" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,37 +214,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 359D7C4527FF2D6F00AB98D2;
-			productRefGroup = 359D7C4F27FF2D6F00AB98D2 /* Products */;
+			mainGroup = 359914E127C7DD33009CBEB0;
+			productRefGroup = 359914EB27C7DD33009CBEB0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				359D7C4D27FF2D6F00AB98D2 /* Manyam_DiceGame */,
-				359D7C6327FF2D7100AB98D2 /* Manyam_DiceGameTests */,
-				359D7C6D27FF2D7100AB98D2 /* Manyam_DiceGameUITests */,
+				359914E927C7DD33009CBEB0 /* Manyam_DiceGame */,
+				359914FF27C7DD34009CBEB0 /* Manyam_DiceGameTests */,
+				3599150927C7DD34009CBEB0 /* Manyam_DiceGameUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		359D7C4C27FF2D6F00AB98D2 /* Resources */ = {
+		359914E827C7DD33009CBEB0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				359D7C5E27FF2D7100AB98D2 /* LaunchScreen.storyboard in Resources */,
-				359D7C5B27FF2D7100AB98D2 /* Assets.xcassets in Resources */,
-				359D7C5927FF2D6F00AB98D2 /* Main.storyboard in Resources */,
+				359914FA27C7DD34009CBEB0 /* LaunchScreen.storyboard in Resources */,
+				359914F727C7DD34009CBEB0 /* Assets.xcassets in Resources */,
+				359914F527C7DD33009CBEB0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		359D7C6227FF2D7100AB98D2 /* Resources */ = {
+		359914FE27C7DD34009CBEB0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		359D7C6C27FF2D7100AB98D2 /* Resources */ = {
+		3599150827C7DD34009CBEB0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -257,62 +254,61 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		359D7C4A27FF2D6F00AB98D2 /* Sources */ = {
+		359914E627C7DD33009CBEB0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				359D7C8227FF2E8A00AB98D2 /* GameViewController.swift in Sources */,
-				359D7C5627FF2D6F00AB98D2 /* ViewController.swift in Sources */,
-				359D7C5227FF2D6F00AB98D2 /* AppDelegate.swift in Sources */,
-				359D7C5427FF2D6F00AB98D2 /* SceneDelegate.swift in Sources */,
+				359914F227C7DD33009CBEB0 /* ViewController.swift in Sources */,
+				359914EE27C7DD33009CBEB0 /* AppDelegate.swift in Sources */,
+				359914F027C7DD33009CBEB0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		359D7C6027FF2D7100AB98D2 /* Sources */ = {
+		359914FC27C7DD34009CBEB0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				359D7C6927FF2D7100AB98D2 /* Manyam_DiceGameTests.swift in Sources */,
+				3599150527C7DD34009CBEB0 /* Manyam_DiceGameTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		359D7C6A27FF2D7100AB98D2 /* Sources */ = {
+		3599150627C7DD34009CBEB0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				359D7C7527FF2D7100AB98D2 /* Manyam_DiceGameUITestsLaunchTests.swift in Sources */,
-				359D7C7327FF2D7100AB98D2 /* Manyam_DiceGameUITests.swift in Sources */,
+				3599151127C7DD34009CBEB0 /* Manyam_DiceGameUITestsLaunchTests.swift in Sources */,
+				3599150F27C7DD34009CBEB0 /* Manyam_DiceGameUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		359D7C6627FF2D7100AB98D2 /* PBXTargetDependency */ = {
+		3599150227C7DD34009CBEB0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 359D7C4D27FF2D6F00AB98D2 /* Manyam_DiceGame */;
-			targetProxy = 359D7C6527FF2D7100AB98D2 /* PBXContainerItemProxy */;
+			target = 359914E927C7DD33009CBEB0 /* Manyam_DiceGame */;
+			targetProxy = 3599150127C7DD34009CBEB0 /* PBXContainerItemProxy */;
 		};
-		359D7C7027FF2D7100AB98D2 /* PBXTargetDependency */ = {
+		3599150C27C7DD34009CBEB0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 359D7C4D27FF2D6F00AB98D2 /* Manyam_DiceGame */;
-			targetProxy = 359D7C6F27FF2D7100AB98D2 /* PBXContainerItemProxy */;
+			target = 359914E927C7DD33009CBEB0 /* Manyam_DiceGame */;
+			targetProxy = 3599150B27C7DD34009CBEB0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		359D7C5727FF2D6F00AB98D2 /* Main.storyboard */ = {
+		359914F327C7DD33009CBEB0 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				359D7C5827FF2D6F00AB98D2 /* Base */,
+				359914F427C7DD33009CBEB0 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		359D7C5C27FF2D7100AB98D2 /* LaunchScreen.storyboard */ = {
+		359914F827C7DD34009CBEB0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				359D7C5D27FF2D7100AB98D2 /* Base */,
+				359914F927C7DD34009CBEB0 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -320,7 +316,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		359D7C7627FF2D7100AB98D2 /* Debug */ = {
+		3599151227C7DD34009CBEB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -381,7 +377,7 @@
 			};
 			name = Debug;
 		};
-		359D7C7727FF2D7100AB98D2 /* Release */ = {
+		3599151327C7DD34009CBEB0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -436,7 +432,7 @@
 			};
 			name = Release;
 		};
-		359D7C7927FF2D7100AB98D2 /* Debug */ = {
+		3599151527C7DD34009CBEB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -464,7 +460,7 @@
 			};
 			name = Debug;
 		};
-		359D7C7A27FF2D7100AB98D2 /* Release */ = {
+		3599151627C7DD34009CBEB0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -492,7 +488,7 @@
 			};
 			name = Release;
 		};
-		359D7C7C27FF2D7100AB98D2 /* Debug */ = {
+		3599151827C7DD34009CBEB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -511,7 +507,7 @@
 			};
 			name = Debug;
 		};
-		359D7C7D27FF2D7100AB98D2 /* Release */ = {
+		3599151927C7DD34009CBEB0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -530,7 +526,7 @@
 			};
 			name = Release;
 		};
-		359D7C7F27FF2D7100AB98D2 /* Debug */ = {
+		3599151B27C7DD34009CBEB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -547,7 +543,7 @@
 			};
 			name = Debug;
 		};
-		359D7C8027FF2D7100AB98D2 /* Release */ = {
+		3599151C27C7DD34009CBEB0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -567,43 +563,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		359D7C4927FF2D6F00AB98D2 /* Build configuration list for PBXProject "Manyam_DiceGame" */ = {
+		359914E527C7DD33009CBEB0 /* Build configuration list for PBXProject "Manyam_DiceGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				359D7C7627FF2D7100AB98D2 /* Debug */,
-				359D7C7727FF2D7100AB98D2 /* Release */,
+				3599151227C7DD34009CBEB0 /* Debug */,
+				3599151327C7DD34009CBEB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		359D7C7827FF2D7100AB98D2 /* Build configuration list for PBXNativeTarget "Manyam_DiceGame" */ = {
+		3599151427C7DD34009CBEB0 /* Build configuration list for PBXNativeTarget "Manyam_DiceGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				359D7C7927FF2D7100AB98D2 /* Debug */,
-				359D7C7A27FF2D7100AB98D2 /* Release */,
+				3599151527C7DD34009CBEB0 /* Debug */,
+				3599151627C7DD34009CBEB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		359D7C7B27FF2D7100AB98D2 /* Build configuration list for PBXNativeTarget "Manyam_DiceGameTests" */ = {
+		3599151727C7DD34009CBEB0 /* Build configuration list for PBXNativeTarget "Manyam_DiceGameTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				359D7C7C27FF2D7100AB98D2 /* Debug */,
-				359D7C7D27FF2D7100AB98D2 /* Release */,
+				3599151827C7DD34009CBEB0 /* Debug */,
+				3599151927C7DD34009CBEB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		359D7C7E27FF2D7100AB98D2 /* Build configuration list for PBXNativeTarget "Manyam_DiceGameUITests" */ = {
+		3599151A27C7DD34009CBEB0 /* Build configuration list for PBXNativeTarget "Manyam_DiceGameUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				359D7C7F27FF2D7100AB98D2 /* Debug */,
-				359D7C8027FF2D7100AB98D2 /* Release */,
+				3599151B27C7DD34009CBEB0 /* Debug */,
+				3599151C27C7DD34009CBEB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 359D7C4627FF2D6F00AB98D2 /* Project object */;
+	rootObject = 359914E227C7DD33009CBEB0 /* Project object */;
 }
