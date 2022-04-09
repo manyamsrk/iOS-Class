@@ -9,16 +9,18 @@ import UIKit
 
 class ItemInfoViewController: UIViewController {
 
+    var details : [GroceryItem] = []
     @IBOutlet weak var itemImageViewOutlet: UIImageView!
-    
     
     @IBOutlet weak var showItemInfoAction: UIButton!
     
     @IBOutlet weak var itemInfoOutlet: UITextView!
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        for itemd in details{
+            itemInfoOutlet.text = itemd.itemInfo
+            
+        }
     }
     
 

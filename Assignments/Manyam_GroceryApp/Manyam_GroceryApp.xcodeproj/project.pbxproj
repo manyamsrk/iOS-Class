@@ -18,6 +18,7 @@
 		35FF95D827FC8F9A0012224C /* Manyam_GroceryAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FF95D727FC8F9A0012224C /* Manyam_GroceryAppUITestsLaunchTests.swift */; };
 		35FF95E527FC91BB0012224C /* GroceryItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FF95E427FC91BB0012224C /* GroceryItemsViewController.swift */; };
 		35FF95E727FC955C0012224C /* ItemInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FF95E627FC955C0012224C /* ItemInfoViewController.swift */; };
+		3F023A6728010DAD003D4FFD /* GrocerySection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F023A6628010DAD003D4FFD /* GrocerySection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		35FF95D727FC8F9A0012224C /* Manyam_GroceryAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manyam_GroceryAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		35FF95E427FC91BB0012224C /* GroceryItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryItemsViewController.swift; sourceTree = "<group>"; };
 		35FF95E627FC955C0012224C /* ItemInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemInfoViewController.swift; sourceTree = "<group>"; };
+		3F023A6628010DAD003D4FFD /* GrocerySection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrocerySection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				35FF95C227FC8F990012224C /* Info.plist */,
 				35FF95E427FC91BB0012224C /* GroceryItemsViewController.swift */,
 				35FF95E627FC955C0012224C /* ItemInfoViewController.swift */,
+				3F023A6628010DAD003D4FFD /* GrocerySection.swift */,
 			);
 			path = Manyam_GroceryApp;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 				35FF95B927FC8F980012224C /* GrocerySectionsViewController.swift in Sources */,
 				35FF95B527FC8F980012224C /* AppDelegate.swift in Sources */,
 				35FF95E527FC91BB0012224C /* GroceryItemsViewController.swift in Sources */,
+				3F023A6728010DAD003D4FFD /* GrocerySection.swift in Sources */,
 				35FF95E727FC955C0012224C /* ItemInfoViewController.swift in Sources */,
 				35FF95B727FC8F980012224C /* SceneDelegate.swift in Sources */,
 			);
