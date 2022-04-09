@@ -39,6 +39,7 @@ class GrocerySectionsViewController: UIViewController, UITableViewDelegate, UITa
         if transition == "itemSegue"{
             let destination = segue.destination as! GroceryItemsViewController
             destination.items = grocerysArr[(grocerySectionsTableView.indexPathForSelectedRow?.row)!]
+//            destination.secname = grocerysArr[(grocerySectionsTableView.indexPathForSelectedRow?.row)!]
         }
     }
 
