@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  ContactList1
+//  ContactListApp
 //
-//  Created by Manyam,Siva Rama Krishna on 4/19/22.
+//  Created by Manyam,Siva Rama Krishna on 4/21/22.
 //
 
 import UIKit

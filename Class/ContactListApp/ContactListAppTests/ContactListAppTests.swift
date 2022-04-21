@@ -1,14 +1,14 @@
 //
-//  ContactList1Tests.swift
-//  ContactList1Tests
+//  ContactListAppTests.swift
+//  ContactListAppTests
 //
-//  Created by Manyam,Siva Rama Krishna on 4/19/22.
+//  Created by Manyam,Siva Rama Krishna on 4/21/22.
 //
 
 import XCTest
-@testable import ContactList1
+@testable import ContactListApp
 
-class ContactList1Tests: XCTestCase {
+class ContactListAppTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

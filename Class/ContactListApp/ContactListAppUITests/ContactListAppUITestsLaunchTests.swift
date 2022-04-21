@@ -1,13 +1,13 @@
 //
-//  ContactList1UITestsLaunchTests.swift
-//  ContactList1UITests
+//  ContactListAppUITestsLaunchTests.swift
+//  ContactListAppUITests
 //
-//  Created by Manyam,Siva Rama Krishna on 4/19/22.
+//  Created by Manyam,Siva Rama Krishna on 4/21/22.
 //
 
 import XCTest
 
-class ContactList1UITestsLaunchTests: XCTestCase {
+class ContactListAppUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
