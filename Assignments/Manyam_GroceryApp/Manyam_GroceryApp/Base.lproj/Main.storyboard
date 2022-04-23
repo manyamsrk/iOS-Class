@@ -52,10 +52,10 @@
             </objects>
             <point key="canvasLocation" x="928.98550724637687" y="97.767857142857139"/>
         </scene>
-        <!--Grocery Items View Controller-->
+        <!--Grocery Iatems View Controller-->
         <scene sceneID="S2U-XE-5kR">
             <objects>
-                <viewController id="vCo-WW-epH" customClass="GroceryItemsViewController" customModule="Manyam_GroceryApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vCo-WW-epH" customClass="GroceryIatemsViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QD6-zY-bfB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
