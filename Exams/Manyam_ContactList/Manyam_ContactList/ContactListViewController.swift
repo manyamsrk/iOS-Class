@@ -27,7 +27,11 @@ class ContactListViewController: UIViewController, UITableViewDelegate, UITableV
         conatcTableView.delegate = self
         conatcTableView.dataSource = self
         // Do any additional setup after loading the view.
-        
+        conatcTableView.reloadData()
+    }
+    override func viewDidAppear(_ animated: Bool) {
+        conatcTableView.reloadData()
+
     }
     @IBAction func createContactButton(_ sender: Any) {
         
